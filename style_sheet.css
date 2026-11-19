@@ -17,6 +17,15 @@ header {
     padding-bottom: 25px;
 }
 
+/* .shift-up-text{
+    font-family: momos;
+    text-align: center;
+    color: #BD93F9;
+    font-size:70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+} */
+
 h1 {
     text-align: center;
 }
@@ -29,9 +38,22 @@ li {
     float: center;
 }
 
+footer a{
+    font-family: momos;
+    text-align: center;
+    text-decoration: none;
+    color: #6272A4	;
+}
+
+footer{
+    font-family: momos;
+    text-align: center;
+    text-decoration: none;
+    color: #6272A4	;
+}
+
  li a {
     display: block;
-    color: F8F8F2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -52,9 +74,13 @@ ul {
 }
 
 .shift-up-text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #BD93F9;
+    font-family: momos;
     display: inline-block; /* Required for transform to work on inline elements like text */
-    font-size: 24px;
-    font-family: sans-serif;
+    font-size: 70px;
     cursor: pointer;
     
     /* Smoothly animates the shift over 0.3 seconds */
@@ -66,3 +92,30 @@ ul {
     /* Negative value moves the element UP on the Y-axis */
     transform: translateY(-8px); 
 }
+
+.header-container {
+  display: flex;          /* Places children side-by-side */
+  align-items: center;    /* Vertically centers the text with the image */
+  gap: 160px;              /* Adds space between the image and header */
+  text-align: center;
+}
+
+.hc-logo {
+    padding-top: 0px;
+}
+
+p .one{
+    font-family: momos;
+    color: #F8F8F2;
+}
+
+p .two{
+    font-family: momos;
+    color: #F8F8F2;
+}
+
+p .three{
+    font-family: momos;
+    color: #F8F8F2;
+}
+
