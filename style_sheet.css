@@ -35,6 +35,7 @@ li {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: #6272A4	;
 }
 
 li a:hover {
@@ -48,4 +49,20 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #191A21;
+}
+
+.shift-up-text {
+    display: inline-block; /* Required for transform to work on inline elements like text */
+    font-size: 24px;
+    font-family: sans-serif;
+    cursor: pointer;
+    
+    /* Smoothly animates the shift over 0.3 seconds */
+    transition: transform 0.3s ease; 
+}
+
+/* Triggers when the user hovers over the text */
+.shift-up-text:hover {
+    /* Negative value moves the element UP on the Y-axis */
+    transform: translateY(-8px); 
 }
