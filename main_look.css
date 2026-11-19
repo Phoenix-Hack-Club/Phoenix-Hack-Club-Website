@@ -1,0 +1,51 @@
+@font-face {
+  font-family: momos; /* set name */
+  src: url(Momos_pt-Regular.ttf); /* url of the font */
+}
+
+body {
+    /* background-image: repeating-linear-gradient(to top right, #191A21, #DE5735); */
+    background-color: #191A21;
+}
+/* #DE5735 */
+header {
+    font-family: momos;
+    text-align: center;
+    color: #BD93F9;
+    font-size:70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    float: center;
+}
+
+ li a {
+    display: block;
+    color: F8F8F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191A21;
+}
