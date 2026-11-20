@@ -28,6 +28,8 @@ header {
 
 h1 {
     text-align: center;
+    font-family: momos;
+    color: #6272A4;
 }
 
 h2 {
@@ -58,19 +60,12 @@ footer{
     padding: 14px 16px;
     text-decoration: none;
     color: #6272A4	;
+    font-family: momos;
 }
 
 li a:hover {
     background-color: #111;
     
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #191A21;
 }
 
 .shift-up-text {
@@ -101,21 +96,33 @@ ul {
 }
 
 .hc-logo {
-    padding-top: 0px;
+    padding-top: 0%;
 }
 
-p .one{
+.one{
     font-family: momos;
-    color: #F8F8F2;
+    color:#6272A4;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    transform: translateX(150px) rotate(6deg);
 }
 
-p .two{
+.two{
     font-family: momos;
-    color: #F8F8F2;
+    color:#6272A4;
+    text-align: center;
+    transform: rotate(5deg) translateX(-200px);
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
-p .three{
+.three{
     font-family: momos;
-    color: #F8F8F2;
+    color:#6272A4;
+    text-align: center;
+    transform: rotate(-4deg) translate(200px);
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
